@@ -1,0 +1,6 @@
+{
+  "module_count": 30,
+  "snapshot_sha256": "50f8f5753589255db517e313aa040880ba857ed635caf40dbb6e307d094ee5b6",
+  "snapshot_type": "sanitized fresh-root public history",
+  "source_commit": "764b829cb689042a52bbaa534deff594631da7f2"
+}

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arda-aaos-cli"
+version = "0.1.0"
+description = "ARDA AAOS development command-line utilities"
+requires-python = ">=3.11"
+license = {text = "Apache-2.0"}
+
+[project.scripts]
+arda = "arda_cli.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["arda_cli*"]
